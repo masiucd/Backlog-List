@@ -12,7 +12,7 @@ function render(){
 
 function onClick(){
   n = addFn(n, 1)
-  render()
+      render()
 }
 
 
