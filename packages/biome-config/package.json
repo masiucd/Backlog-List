@@ -1,0 +1,11 @@
+{
+	"name": "@recursive-ui/biome-config",
+	"version": "1.0.0",
+	"description": "Biome configuration package",
+	"keywords": ["biome", "biome-config"],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4"
+	}
+}
