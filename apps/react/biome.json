@@ -20,23 +20,16 @@
 		"enabled": true,
 		"rules": {
 			"recommended": true,
-
 			"style": {
-				"noNonNullAssertion": "warn",
-				"useConst": "off"
-			},
-			"a11y": {
-				"useButtonType": "off"
+				"useConst": "off",
+				"noNonNullAssertion": "warn"
 			}
 		}
 	},
 	"javascript": {
 		"formatter": {
 			"quoteStyle": "double",
-			"bracketSpacing": false,
-			"semicolons": "always",
-			"trailingCommas": "all",
-			"lineWidth": 90
+			"bracketSpacing": false
 		}
 	}
 }

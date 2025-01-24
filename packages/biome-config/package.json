@@ -2,10 +2,14 @@
 	"name": "@recursive-ui/biome-config",
 	"version": "1.0.0",
 	"description": "Biome configuration package",
+	"type": "module",
 	"keywords": ["biome", "biome-config"],
-	"author": "",
+	"private": true,
 	"license": "ISC",
-	"devDependencies": {
+	"exports": {
+		".": "./biome.json"
+	},
+	"dependencies": {
 		"@biomejs/biome": "1.9.4"
 	}
 }
